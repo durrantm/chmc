@@ -23,7 +23,8 @@ Also
 
 For your convenience the core code is here:
 
-```const getElement = (obj, path) => {
+```
+const getElement = (obj, path) => {
   try { return obj[path]; }
   catch { return undefined; }
 };
