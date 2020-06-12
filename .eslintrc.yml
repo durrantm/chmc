@@ -1,0 +1,65 @@
+plugins:
+#  - react
+  - jest
+extends:
+#  - plugin:react/recommended
+  - plugin:jest/recommended
+env:
+  commonjs: true
+  es6: true
+  node: true
+globals:
+  Atomics: readonly
+  SharedArrayBuffer: readonly
+#settings:
+#  react:
+#    version: latest
+parser: babel-eslint
+parserOptions:
+  ecmaVersion: 2018
+  sourceType: module
+rules:
+  indent:
+  - error
+  - 2
+  max-len:
+  - warn
+  - code: 120
+  no-dupe-else-if: error
+  no-dupe-keys: error
+  no-duplicate-case: error
+  no-unreachable: error
+  prefer-const: error
+  eqeqeq: error
+  semi: error
+  no-var: error
+  no-fallthrough: error
+  no-new: error
+  no-redeclare: error
+  vars-on-top: error
+  default-param-last: error
+  no-mixed-spaces-and-tabs: error
+  no-tabs: error
+  no-trailing-spaces: error
+  no-irregular-whitespace: error
+  no-unused-vars: error
+  no-nested-ternary: error
+  no-multiple-empty-lines: error
+  no-extra-boolean-cast: warn
+  no-extra-parens: warn
+  default-case: warn
+  no-else-return: warn
+  no-eq-null: warn
+  no-eval: warn
+  no-loop-func: warn
+  no-native-reassign: warn
+  no-param-reassign: warn
+  no-self-compare: warn
+  accessor-pairs: warn
+  block-scoped-var: warn
+  no-throw-literal: warn
+  prefer-regex-literals: warn
+  camelcase: warn
+  no-useless-rename: warn
+  prefer-rest-params: warn
+  prefer-template: warn
