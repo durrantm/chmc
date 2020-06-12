@@ -34,4 +34,4 @@ exports.access = (objectIn, pathParts) => {
     object = getElement(object, pathPart);
   }
   return object;
-};```
+};
