@@ -1,4 +1,4 @@
-The code nd tests are in:
+The code and tests are in:
 
     app.js
     app.test.js
