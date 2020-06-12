@@ -19,9 +19,9 @@ I've done that a few times this year. bugs me every time.
 Once I got over that the rest of the program was simple.
 
 Also
-- I excluded node_modules as discussed from this repo (so npm install to be able to run).
-- you can use jest src/ to run the code using es6
-- you can use npm t to run pre-es6 code in lib
+- I excluded `node_modules/` as discussed from this repo (so `npm install` to be able to run).
+- you can use `jest src/` to run the code using es6
+- you can use `npm t` to run pre-es6 code in `lib/`
 
 For your convenience the core code is here:
 
